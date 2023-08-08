@@ -1,39 +1,33 @@
-def display_menu():
-    print("===== MENU =====")
-    print("1. Option 1")
-    print("2. Option 2")
-    print("3. Option 3")
-    print("4. Quit")
-    print("=================")
-
-def option_1():
-    print("You selected Option 1.")
-    # Add your code for Option 1 here
-
-def option_2():
-    print("You selected Option 2.")
-    # Add your code for Option 2 here
-
-def option_3():
-    print("You selected Option 3.")
-    # Add your code for Option 3 here
-
-def main():
-    while True:
-        display_menu()
-        choice = input("Enter the number of your choice (1-4): ")
-
-        if choice == '1':
-            option_1()
-        elif choice == '2':
-            option_2()
-        elif choice == '3':
-            option_3()
-        elif choice == '4':
-            print("Goodbye!")
-            break
-        else:
-            print("Invalid choice. Please try again.")
-
-if __name__ == "__main__":
-    main()
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Biodata</title>
+</head>
+<body>
+    <h1>Biodata</h1>
+    <table>
+        <tr>
+            <td>Nama:</td>
+            <td>Hilmiah</td>
+        </tr>
+        <tr>
+            <td>Usia:</td>
+            <td>18 Tahun</td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin:</td>
+            <td>Perempuan</td>
+        </tr>
+        
+        <tr>
+            <td>Sekolah:</td>
+            <td>SMKN 6 JEMBER</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
